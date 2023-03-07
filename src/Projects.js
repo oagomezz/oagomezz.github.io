@@ -8,6 +8,7 @@ const Projects = [
 {   name: "BarkBuddies",
     image: BarkBuddies
 }
+
 ]
 
 
