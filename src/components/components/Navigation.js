@@ -22,8 +22,8 @@ const Navigation = () => {
           </NavLink>
         </NavItem>
         <NavItem className="nav-buttons">
-          <NavLink to="/techstack" className="nav-link">
-            Tech Stack
+          <NavLink to="/resume" className="nav-link">
+            Resume
           </NavLink>
         </NavItem>
         <NavItem className="nav-buttons">

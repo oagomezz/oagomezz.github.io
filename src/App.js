@@ -5,7 +5,7 @@ import "../src/App.scss"
 import Home from "./components/pages/Home";
 import Header from "./components/components/Header";
 import Portfolio from "./components/pages/Portfolio";
-import TechStack from "./components/pages/TechStack";
+import Resume from "./components/pages/Resume";
 import ContactMe from "./components/pages/ContactMe";
 
 
@@ -18,7 +18,7 @@ const App = () =>{
             <Route path="/" element={<Home />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/techstack" element={<TechStack />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/contactme" element={<ContactMe />} />
           </Routes>
       </div>

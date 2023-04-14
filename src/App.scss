@@ -48,7 +48,7 @@
     display: flex;
       justify-content: right;
       width: auto;
-      height: 53vh;
+      height: 71vh;
       border: solid 2px;
       background: white;
       opacity: 0.85;
@@ -104,12 +104,6 @@
     background-color: #368ABF;
     border-radius: 15px;
   }
-  .tech-stack{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 5%;
-  }
   .tech-image{
     width: 27vh;
     height: auto;
@@ -160,3 +154,20 @@
   img.project-image{
     border-radius: 30px !important;
   }
+  .resume{
+    margin-top: 2%;
+  }
+  .resume-container{
+    display: flex;
+    justify-content: center;
+  }
+  .resume-content{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+}
+  
