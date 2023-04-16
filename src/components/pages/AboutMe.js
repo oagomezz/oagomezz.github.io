@@ -8,10 +8,10 @@ return(
     <div className="text-container">
       <h3> Biography
         <p className="aboutme">
-          Welcome, my name is Oscar Gomez, and I am a Full Stack developer currently pursuing my education at Learn Academy. I am enthusiastic about applying my newly acquired skill set to secure a job within the industry that will allow me to utilize my skills to their fullest potential.
+          Welcome&#44; my name is Oscar Gomez&#44; and I am a Full Stack developer currently pursuing my education at Learn Academy&#46; I am enthusiastic about applying my skillset to secure a job within the industry that will allow me to utilize my strength&#39;s to their fullest potential&#46;
         </p>
         <p className="aboutme">
-          My passion for coding stems from its ability to create anything imaginable through careful planning and implementation. As an individual who strongly believes in the power of technology for good, I am convinced that software development, under the right circumstances, can have a profound and positive impact on society.
+          My passion for coding stems from its ability to create anything imaginable through careful planning and implementation&#46; As an individual who strongly believes in the power of technology for good&#44; I am convinced that software development, under the right circumstances&#44; can have a profound and positive impact on society&#46;
         </p>
       </h3>
     </div>

@@ -144,15 +144,15 @@
     color:white;
     border-radius: 15px;
   }
-  .projectcard{
-    width: 65vh;
-  }
-  .project-name.card-title{
-    display:flex;
+  .project{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
+  
   img.project-image{
-    border-radius: 30px !important;
+    height: 36vh;
+    width: 50vh;
   }
   .resume{
     margin-top: 2%;
