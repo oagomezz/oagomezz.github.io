@@ -9,6 +9,11 @@ const Projects = [
 {   name: "BarkBuddies",
     image: BarkBuddies,
     description: "This decoupled app was created with a React front end and a Rails backend. Devise was implemented for user authentication. "
+},
+{
+    name: "BudgetApp",
+    image: "",
+    description: "This React app was created to better understand React hooks such as useContext, useEffect and useReducer along with React Formatter."
 }
 
 ]

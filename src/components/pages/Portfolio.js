@@ -15,8 +15,10 @@ const Portfolio = (props) => {
   return (
     <div className="portfolio-overlay" >
       <main className="portfolio-cards">
+        <h3>Some projects I've worked on!...</h3>
         {Projects?.map((project,index) => {
           return (
+            <>
             <Accordion open={open} toggle={toggle} key={index}>
               <AccordionItem>
               <AccordionHeader targetId={index}>{project.name}</AccordionHeader>
@@ -28,6 +30,7 @@ const Portfolio = (props) => {
                 </AccordionBody>
               </AccordionItem>
             </Accordion>
+            </>
           );
         })}
       </main>

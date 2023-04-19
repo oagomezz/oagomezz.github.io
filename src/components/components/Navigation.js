@@ -1,37 +1,12 @@
 import React from "react";
-import { NavItem, Nav } from "reactstrap";
-import { NavLink } from "react-router-dom";
+import NavLinks from "./NavLinks";
 
 const Navigation = () => {
 
     return (
-      <Nav className="fill-pills">
-        <NavItem className="nav-buttons" >
-          <NavLink  to="/" className="nav-link">
-            Home
-          </NavLink>
-        </NavItem>
-        <NavItem className="nav-buttons">
-          <NavLink  to="/aboutme" className="nav-link">
-            About Me
-          </NavLink>
-        </NavItem>
-        <NavItem className="nav-buttons">
-          <NavLink  to="/portfolio" className="nav-link">
-            Portfolio
-          </NavLink>
-        </NavItem>
-        <NavItem className="nav-buttons">
-          <NavLink to="/resume" className="nav-link">
-            Resume
-          </NavLink>
-        </NavItem>
-        <NavItem className="nav-buttons">
-          <NavLink  to="/contactme" className="nav-link">
-            Contact Me
-          </NavLink>
-        </NavItem>
-      </Nav>
+      <nav className="navigation">
+        <NavLinks />
+      </nav>
     )
   }
 
