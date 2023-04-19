@@ -1,10 +1,19 @@
 @import "bootstrap";
 
+ul.nav{
+  display: flex;
+  justify-content: center;
+}
+.title-column{
+  position: absolute;
+  top: 47%;
+  right: 0%;
+  width: 100%;
+}
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: 'Tenor Sans', sans-serif;
   }
   .nav-link {
@@ -176,14 +185,66 @@ padding-top: 1%;
 .mobile-navigation{
   display: none;
 }
+@media(max-width: 490px ){
+  h1.title{
+    position: absolute;
+    top: -75px;
+  }
+}
+@media( max-width: 390px ){
+  div.background{
+position: relative;
+right: 0;
+  }
+  div.text-container{
+    width: 370px;
+    height: 340px;
+  }
+  p.aboutme{
+    width: 340px;
+  }
+  img.project-image{
+    width:40vh;
+  }
+  main.portfolio-cards{
+    top: 30vh;
+    position: absolute;
+    width: 46vh;
+  }
+  a.download-link{
+    top: 50px;
+  }
+  .contact-button{
+    width: 370px !important;
+  }
+  .name-input{
+    width: 370px !important;
+  }
+  .email-input{
+    width: 370px !important;
+  }
+  .message-input{
+    width: 370px !important;
+  }
+  form.contact-me{
+    position: absolute;
+    top: 28vh;
+  }
+
+}
  @media (max-width: 990px){
   .navigation {
     display: none;
+    height: 70px;
   }
   .mobile-navigation {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  }
+  div.mobile-navigation{
+    height: 75px;
+    background-color: gainsboro;
   }
   .hamburger{
     position: absolute;
@@ -192,19 +253,49 @@ padding-top: 1%;
     cursor: pointer;
   }
     ul.navbar{
+      position: absolute;
       display: flex;
       flex-direction: column;
       right: 0;
       width: 100%;
       margin: 0;
       padding: 0;
+      top: 75px;
   }
   .navbar{
     top: 70px;
+    background-color: gainsboro;
+    opacity: .75;
   }
   nav li{
     border: 1px solid black;
     width: 100%;
     border-radius: 7px;
+  }
+  img.about-me-image{
+    display: none;
+  }
+  .text-container{
+    height: 35vh;
+    position: relative;
+    top: 200px;
+  }
+  main.portfolio-cards{
+    top: 30vh;
+    position: absolute;
+    width: 100%;
+  }
+  a.nav-link{
+    height: 40px;
+  }
+  main.resume-container{
+    display: none;
+  }
+  .download-link{
+    top: 19rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
  }

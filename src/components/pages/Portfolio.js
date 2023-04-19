@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Accordion, Card, CardTitle, AccordionHeader, AccordionItem, AccordionBody } from "reactstrap";
+import { Accordion, AccordionHeader, AccordionItem, AccordionBody } from "reactstrap";
 import Projects from '../../Projects';
 
 const Portfolio = (props) => {
@@ -19,6 +19,7 @@ const Portfolio = (props) => {
         {Projects?.map((project,index) => {
           return (
             <>
+            <div className='accordion'>
             <Accordion open={open} toggle={toggle} key={index}>
               <AccordionItem>
               <AccordionHeader targetId={index}>{project.name}</AccordionHeader>
@@ -30,6 +31,7 @@ const Portfolio = (props) => {
                 </AccordionBody>
               </AccordionItem>
             </Accordion>
+            </div>
             </>
           );
         })}

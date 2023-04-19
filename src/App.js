@@ -22,7 +22,6 @@ const App = () =>{
             <Route path="/contact" element={<ContactMe />} />
           </Routes>
       </div>
-      
     </BrowserRouter>
   )}
   export default App

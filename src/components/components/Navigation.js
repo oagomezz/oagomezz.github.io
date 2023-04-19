@@ -4,9 +4,9 @@ import NavLinks from "./NavLinks";
 const Navigation = () => {
 
     return (
-      <nav className="navigation">
+      <div className="navigation">
         <NavLinks />
-      </nav>
+      </div>
     )
   }
 
