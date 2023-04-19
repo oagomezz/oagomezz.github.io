@@ -20,32 +20,6 @@ const NavLinks = () => {
                 <a href="/contact"> Contact Me</a>
             </li>
        </ul>
-        // <NavItem className="nav-buttons" >
-        //   <NavLink  to="/" className="nav-link">
-        //     Home
-        //   </NavLink>
-        // </NavItem>
-        // <NavItem className="nav-buttons">
-        //   <NavLink  to="/aboutme" className="nav-link">
-        //     About Me
-        //   </NavLink>
-        // </NavItem>
-        // <NavItem className="nav-buttons">
-        //   <NavLink  to="/portfolio" className="nav-link">
-        //     Portfolio
-        //   </NavLink>
-        // </NavItem>
-        // <NavItem className="nav-buttons">
-        //   <NavLink to="/resume" className="nav-link">
-        //     Resume
-        //   </NavLink>
-        // </NavItem>
-        // <NavItem className="nav-buttons">
-        //   <NavLink  to="/contactme" className="nav-link">
-        //     Contact Me
-        //   </NavLink>
-        // </NavItem>
-     
      );
 }
  
