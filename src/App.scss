@@ -36,7 +36,7 @@ ul.nav{
   .aboutme{
     font-size: 17px;
       height: auto;
-      width: 60vh;
+      width: auto;
       display: flex;
       flex-direction: column;
   
@@ -57,7 +57,7 @@ ul.nav{
     display: flex;
       justify-content: right;
       width: auto;
-      height: 71vh;
+      height: auto;
       border: solid 2px;
       background: white;
       opacity: 0.85;
@@ -81,6 +81,9 @@ ul.nav{
   font-size: 40px;
   display: flex;
   justify-content: center;
+  }
+  .portfolio-statement{
+    margin-top: 2%;
   }
   .portfolio-content{
     display: flex;
@@ -149,15 +152,18 @@ ul.nav{
   }
   .resume{
     margin-top: 2%;
+    height: 100vh;
+    width: 90vh;
   }
   .resume-container{
     display: flex;
     justify-content: center;
+    margin-top: -1.5%;
   }
   .resume-content{
     display: flex;
     flex-direction: column;
-    margin: 3%;
+    margin: 1.5%;
   }
   a{
     display: flex;
@@ -165,6 +171,10 @@ ul.nav{
     text-decoration: none;
     color: rgb(4, 4, 4);
     
+}
+.download-link:hover{
+  color: white;
+  cursor: pointer;
 }
 li:hover{
   background-color: #368ABF;
@@ -197,11 +207,8 @@ position: relative;
 right: 0;
   }
   div.text-container{
-    width: 370px;
-    height: 340px;
-  }
-  p.aboutme{
-    width: 340px;
+    width: auto;
+    height: auto;
   }
   img.project-image{
     width:40vh;
@@ -276,7 +283,7 @@ right: 0;
     display: none;
   }
   .text-container{
-    height: 35vh;
+    width: auto;
     position: relative;
     top: 200px;
   }
@@ -297,5 +304,24 @@ right: 0;
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+ }
+ @media (max-height: 820px){
+  main.resume-content{
+    height: 770px;
+  }
+ }
+ @media( max-width: 480px){
+  div.text-container{
+    height:auto !important;
+    width:auto !important;
+  }
+  h3{
+    height: auto !important;
+    width: auto !important;
+  }
+  p.about-me{
+    height: auto !important;
+    width: auto !important;
   }
  }

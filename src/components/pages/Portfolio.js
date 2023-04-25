@@ -15,7 +15,7 @@ const Portfolio = (props) => {
   return (
     <div className="portfolio-overlay" >
       <main className="portfolio-cards">
-        <h3>Some projects I've worked on!...</h3>
+        <h3 className='portfolio-statement'>Some projects I've worked on!...</h3>
         {Projects?.map((project,index) => {
           return (
             <>

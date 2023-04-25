@@ -1,5 +1,6 @@
-import TrekLog from "./components/assets/Treklog.gif"
-import BarkBuddies from "./components/assets/BarkBuddies.gif"
+import TrekLog from "./components/assets/Portfolio/Treklog.gif"
+import BarkBuddies from "./components/assets/Portfolio/Treklog.gif"
+import BudgetApp from "./components/assets/Portfolio/BudgetApp.gif"
 const Projects = [ 
 {
     name: "TrekLog",
@@ -12,7 +13,7 @@ const Projects = [
 },
 {
     name: "BudgetApp",
-    image: "",
+    image: BudgetApp,
     description: "This React app was created to better understand React hooks such as useContext, useEffect and useReducer along with React Formatter."
 }
 
