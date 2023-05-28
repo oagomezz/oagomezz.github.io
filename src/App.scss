@@ -1,5 +1,37 @@
 @import "bootstrap";
 
+.navigation{
+  background: #ffc1c1;
+}
+.about-me{
+  position: absolute;
+    top: 50%;
+    justify-items: center;
+}
+.about-me-title{
+font-size: 40px;
+margin-left: 4%;
+margin-top: 5%;
+display: flex;
+justify-content: center;
+text-decoration: underline;
+margin-bottom: 3%;
+}
+.paragraph{
+  font-size: 17px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.image-included{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15%;
+}
+img.about-me-image{
+  height: 500px;
+  box-shadow: 5px 5px 10px black;
+  margin-right: 5%;
+}
 ul.nav{
   display: flex;
   justify-content: space-around;
@@ -12,8 +44,8 @@ ul.nav{
 }
 .Quote{
   font-size: 125%;
-    position: fixed;
-    top: 62vh;
+    position: absolute;
+    top: 17vh;
     right: 16vh;
     width: 34vh;
     text-shadow: 1px 1px 12px black;
@@ -61,23 +93,20 @@ ul.nav{
     height: 5vh;
     margin-top: 0;
   }
-  
-  .aboutme{
-    font-size: 17px;
-      height: auto;
-      width: auto;
-      display: flex;
-      flex-direction: column;
-  
+  .job-title{
+    font-size: 1000%;
   }
+ 
+
   .footer{
     color: whitesmoke;
     text-align: center;
     font-size: large;
-    bottom: 0;
+    bottom: 0%;
     position: absolute;
     left: 40%;
   }
+ 
   .social-icons{
     display: flex;
     justify-content: center;
@@ -90,69 +119,62 @@ ul.nav{
   }
   
   .background{
-    background-image: url("./components/assets/background.png");
+    background-image: url("./components/assets/background.jpg");
       background-position: 40%;
       background-size: cover;
       background-repeat: no-repeat;
       height: 120vh;
       font-family: 'Montserrat', sans-serif;
   }
-  .text-container{
-    display: flex;
-      justify-content: right;
-      width: auto;
-      height: auto;
-      border: solid 2px;
-      background: white;
-      opacity: 0.85;
-      border-radius: 15px;
-      margin: 2%;
-      padding: 2%;
+  .opaque-background{
+      background-repeat: no-repeat;
+      min-height: 175vh;
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom, rgb(255 193 193) 0%, #a59cc6 100%);
   }
-  .about-me-image{
-    height: auto;
-    width: 65vh;
-    border-radius: 50px;
-    border: solid 2px;
-  }
-  .page-content{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2%;
-  }
-  
-  .portfolio-text{
-  font-size: 40px;
+ .tech-icons{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+ }
+  // .page-content{
+  //   position: absolute;
+  //   top: 25%;
+  //   left: 70%;
+  //   transform: translate(-50%, -50%);
+  //   text-shadow: 1px 1px 10px black;
+  // }
+  .page-content{
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 10px black;
+  padding-right: 3%;
+  padding-left: 10%;
   }
   .portfolio-statement{
-    margin-top: 2%;
-  }
-  .portfolio-content{
+    padding-top: 4%;
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 400%;
+    padding-bottom: 4%;
   }
-  .portfolio-cards{
-    margin-top: 3%;
+  .project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 3%;
   }
-  
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+  }
   .video{
-    border-radius: 10px;
+    height: 30vh;
+    width: auto;
   }
-  // .nav-item:hover{
-  //   background-color: #368ABF;
-  //   border-radius: 15px;
-  // }
-  .tech-image{
-    width: 27vh;
-    height: auto;
-    border-radius: 10px;
-  }
-  .card{
-    margin: 2%;
-  }
-  
   .contact-me{
     display: flex;
     flex-direction: column;
@@ -173,27 +195,13 @@ ul.nav{
   .content{
     display:flex;
     justify-content: center;
-    margin: 5%;
+    padding: 5%;
   }
   
   div.card{
     border-radius: 30px;
   }
-  // .nav-link.active{
-  //   // background-color:  #368ABF !important;
-  //   color:white;
-  //   border-radius: 15px;
-  // }
-  .project{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
   
-  img.project-image{
-    height: 36vh;
-    width: 50vh;
-  }
   .resume{
     margin-top: 2%;
     height: 100vh;
@@ -202,12 +210,11 @@ ul.nav{
   .resume-container{
     display: flex;
     justify-content: center;
-    margin-top: -1.5%;
   }
   .resume-content{
     display: flex;
     flex-direction: column;
-    margin: 1.5%;
+    padding-top: 5%;
   }
   a{
     display: flex;
@@ -220,11 +227,6 @@ ul.nav{
   color: white;
   cursor: pointer;
 }
-// li:hover{
-//   background-color: #368ABF;
-//   border-radius: 15px;
-//   padding: 7px;
-// }
 a:hover{
   color:white;
 }
@@ -256,11 +258,6 @@ right: 0;
   }
   img.project-image{
     width:40vh;
-  }
-  main.portfolio-cards{
-    top: 30vh;
-    position: absolute;
-    width: 46vh;
   }
   a.download-link{
     top: 50px;
@@ -334,11 +331,7 @@ right: 0;
     position: relative;
     top: 200px;
   }
-  main.portfolio-cards{
-    top: 30vh;
-    position: absolute;
-    width: 100%;
-  }
+  
   a.nav-link{
     height: 40px;
   }

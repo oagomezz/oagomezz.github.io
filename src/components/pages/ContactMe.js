@@ -39,6 +39,7 @@ const ContactMe = () =>{
 
 
     return(
+      <div className="background">
       <div className="content">
     <Form action='formSparkUrl' onSubmit={submitForm} className="contact-me">
         <Col md={6}>
@@ -95,6 +96,7 @@ const ContactMe = () =>{
     </Button>
   </Form>  
   </div>  
+  </div>
     )}
     
     export default ContactMe

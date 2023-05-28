@@ -1,43 +1,49 @@
 import React, { useState } from 'react';
-import { Accordion, AccordionHeader, AccordionItem, AccordionBody } from "reactstrap";
 import Projects from '../../Projects';
-
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+ 
 const Portfolio = (props) => {
-    const [open, setOpen] = useState('1');
-    const toggle = (id) => {
-      if (open === id) {
-        setOpen();
-      } else {
-        setOpen(id);
-      }
-    };
+  const [modal, setModal] = useState(false)
+  const [modalData, setModalData] = useState('null')
 
-  return (
-    <div className="portfolio-overlay" >
-      <main className="portfolio-cards">
-        <h3 className='portfolio-statement'>Some projects I've worked on!...</h3>
-        {Projects?.map((project,index) => {
-          return (
-            <>
-            <div className='accordion'>
-            <Accordion open={open} toggle={toggle} key={index}>
-              <AccordionItem>
-              <AccordionHeader targetId={index}>{project.name}</AccordionHeader>
-                <AccordionBody accordionId={index}>
-                  <div className='project'>
-                    <img alt="project card" src={project.image} className="project-image"/>
-                    <strong>{project.description}</strong>
-                  </div>
-                </AccordionBody>
-              </AccordionItem>
-            </Accordion>
-            </div>
-            </>
-          );
-        })}
-      </main>
+  const OpenInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer")
+  }
+  const toggle = () => setModal(!modal);
+  return(
+    <>
+    <div className='opaque-background'>
+ <h1 className='portfolio-statement'>PROJECTS</h1>
+ <div className='projects'>
+    {Projects?.map((project) => {
+      return(
+        <div key={project.id}>
+      <div className='project'>
+    <img  alt={project.alt} className='video' src={project.image} ></img> 
+    <Button  color="secondary" onClick={() => {setModalData(project);
+    toggle()}}>
+      Click Me
+    </Button>
+      </div>
+          <Modal  isOpen={modal} toggle={toggle} {...props}>
+      <ModalHeader toggle={toggle}>{modalData.name}</ModalHeader>
+      <ModalBody>
+        {modalData.description}
+      </ModalBody>
+      <ModalFooter>
+        <Button color="primary" onClick={() => {OpenInNewTab(modalData.link)}}>
+          View Site
+        </Button>{' '}
+        <Button color="secondary" onClick={toggle}>
+          Cancel
+        </Button>
+      </ModalFooter>
+    </Modal>
+  </div>
+      )
+    })}
     </div>
-  );
-};
-
+  </div>
+  </>
+    )}
 export default Portfolio;

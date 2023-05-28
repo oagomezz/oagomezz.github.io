@@ -7,13 +7,11 @@ import Header from "./components/components/Header";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import ContactMe from "./components/pages/ContactMe";
-import Footer from "./components/components/Footer";
-
 
 const App = () =>{
   return(
     <BrowserRouter>
-      <div className="background">
+       <div >
         <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -22,7 +20,6 @@ const App = () =>{
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<ContactMe />} />
           </Routes>
-        <Footer />
       </div>
     </BrowserRouter>
   )}
