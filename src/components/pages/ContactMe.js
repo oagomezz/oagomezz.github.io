@@ -1,7 +1,7 @@
 import React, { useState }from "react"
 import { Form, Row, Col, FormGroup, Label, Input, Button } from "reactstrap"
 import axios from "axios"
-import {motion} from "framer-motion"
+import {motion} from "framer-motion/dist/framer-motion"
 
 const ContactMe = () =>{
   const [disabled, setDisabled] = useState(false);

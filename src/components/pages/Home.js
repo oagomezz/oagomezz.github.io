@@ -1,6 +1,6 @@
 import { React } from "react"
 import  {BsGithub, BsLinkedin} from "react-icons/bs"
-import { motion } from "framer-motion"
+import { motion } from "framer-motion/dist/framer-motion"
 import "../../styles/BirdAnimation.scss"
 import "../../styles/App.scss"
 import "../../styles/Portfolio.scss"

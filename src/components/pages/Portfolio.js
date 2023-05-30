@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Projects from '../../Projects';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion/dist/framer-motion";
  
 const Portfolio = (props) => {
   const [modal, setModal] = useState(false)
