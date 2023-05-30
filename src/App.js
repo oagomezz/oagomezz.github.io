@@ -1,26 +1,16 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import AboutMe from "./components/pages/AboutMe";
-import "../src/App.scss"
-import Home from "./components/pages/Home";
-import Header from "./components/components/Header";
-import Portfolio from "./components/pages/Portfolio";
-import Resume from "./components/pages/Resume";
-import ContactMe from "./components/pages/ContactMe";
+import { BrowserRouter } from "react-router-dom"
+import "../src/styles/App.scss"
+import "../src/styles/AboutMe.scss"
+import "../src/styles/Home.scss"
+import "../src/styles/Media.scss"
+import AnimatedRoutes from "./components/components/AnimatedRoutes";
+
 
 const App = () =>{
   return(
     <BrowserRouter>
-       <div >
-        <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<AboutMe />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<ContactMe />} />
-          </Routes>
-      </div>
+         <AnimatedRoutes />
     </BrowserRouter>
   )}
   export default App

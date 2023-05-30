@@ -1,6 +1,7 @@
 import React, { useState }from "react"
 import { Form, Row, Col, FormGroup, Label, Input, Button } from "reactstrap"
 import axios from "axios"
+import {motion} from "framer-motion"
 
 const ContactMe = () =>{
   const [disabled, setDisabled] = useState(false);
@@ -39,7 +40,27 @@ const ContactMe = () =>{
 
 
     return(
-      <div className="background">
+      <motion.div 
+      className="background"
+      initial={{width: 0}}
+      animate={{width: "100%"}}
+      exit={{x: window.innerWidth, transition:  {duration: .15}}}>
+           <div className='bird-container bird-container--one'>
+        <div className='bird bird-1'>
+          </div>  
+          </div>  
+        <div className='bird-container bird-container--two'>
+        <div className='bird bird-2'>
+          </div>  
+          </div>  
+        <div className='bird-container bird-container--three'>
+        <div className='bird bird-3'>
+          </div>  
+          </div>  
+        <div className='bird-container bird-container--four'>
+        <div className='bird bird-4'>
+          </div>  
+          </div>  
       <div className="content">
     <Form action='formSparkUrl' onSubmit={submitForm} className="contact-me">
         <Col md={6}>
@@ -96,7 +117,7 @@ const ContactMe = () =>{
     </Button>
   </Form>  
   </div>  
-  </div>
+  </motion.div>
     )}
     
     export default ContactMe

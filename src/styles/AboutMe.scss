@@ -1,0 +1,36 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.about-me{
+    position: absolute;
+      top: 50%;
+      justify-items: center;
+      font-family: 'Comfortaa', cursive;
+  }
+  .about-me-title{
+  font-size: 40px;
+  margin-left: 4%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-bottom: 3%;
+  }
+  img.about-me-image{
+    height: 500px;
+    box-shadow: 5px 5px 10px black;
+    margin-right: 5%;
+  }
+  .job-title{
+    font-size: 1000%;
+    font-family: 'Comfortaa', cursive;
+  }
+  .tech-icons{
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .image-included{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15%;
+  }

@@ -1,0 +1,46 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.title-column{
+    position: absolute;
+    top: 47%;
+    right: 0%;
+    width: 100%;
+  }
+  .Quote{
+    font-size: 125%;
+      position: absolute;
+      top: 17vh;
+      right: 16vh;
+      width: 34vh;
+      text-shadow: 1px 1px 12px black;
+      font-family: 'Comfortaa', cursive;
+  
+  }
+  .linkedin{
+    box-shadow: 3px 3px 10px black
+  }
+  .github{
+    margin-right: 1%;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 100%;
+  }
+  
+  
+  
+  .title{
+      display: flex;
+      font-family: 'Comfortaa', cursive;
+      word-wrap: normal;
+      justify-content: center;
+      align-items: center;
+      font-size: 300%;
+      text-shadow: 3px 3px 12px black;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-play-state: paused !important;
+      }
