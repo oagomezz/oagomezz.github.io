@@ -2,7 +2,6 @@ import { React, useState, useEffect } from "react";
 import {SiReact, SiRubyonrails} from "react-icons/si"
 import {DiRuby, DiJavascript, DiPostgresql} from "react-icons/di"
 import AboutMePhoto from '../assets/AboutMePhoto.jpg'
-import {motion} from "framer-motion/dist/framer-motion"
 
 const AboutMe = () =>{
   const [loopNum, setLoopNum] = useState(0);
@@ -47,7 +46,7 @@ const AboutMe = () =>{
   }
 return(
   <>
-  <motion.div 
+  <div 
   className="about-me-sections"
   initial={{width: 0}}
   animate={{width: "100%"}}
@@ -82,7 +81,7 @@ return(
         </div>
       </div>
     </div>
-  </motion.div>
+  </div>
     </>
 )}
 

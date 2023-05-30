@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Projects from '../../Projects';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { motion } from "framer-motion/dist/framer-motion";
  
 const Portfolio = (props) => {
   const [modal, setModal] = useState(false)
@@ -13,7 +12,7 @@ const Portfolio = (props) => {
   const toggle = () => setModal(!modal);
   return(
     <>
-    <motion.div 
+    <div 
     className='opaque-background'
     initial={{width: 0}}
     animate={{width: "100%"}}
@@ -48,7 +47,7 @@ const Portfolio = (props) => {
       )
     })}
     </div>
-  </motion.div>
+  </div>
   </>
     )}
 export default Portfolio;

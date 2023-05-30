@@ -1,7 +1,6 @@
 import React, { useState }from "react"
 import { Form, Row, Col, FormGroup, Label, Input, Button } from "reactstrap"
 import axios from "axios"
-import {motion} from "framer-motion/dist/framer-motion"
 
 const ContactMe = () =>{
   const [disabled, setDisabled] = useState(false);
@@ -40,7 +39,7 @@ const ContactMe = () =>{
 
 
     return(
-      <motion.div 
+      <div 
       className="background"
       initial={{width: 0}}
       animate={{width: "100%"}}
@@ -117,7 +116,7 @@ const ContactMe = () =>{
     </Button>
   </Form>  
   </div>  
-  </motion.div>
+  </div>
     )}
     
     export default ContactMe

@@ -1,6 +1,5 @@
 import { React } from "react"
 import  {BsGithub, BsLinkedin} from "react-icons/bs"
-import { motion } from "framer-motion/dist/framer-motion"
 import "../../styles/BirdAnimation.scss"
 import "../../styles/App.scss"
 import "../../styles/Portfolio.scss"
@@ -10,7 +9,7 @@ const Home = () =>{
     window.open(url, "_blank", "noreferrer")
   }
     return(
-      <motion.div 
+      <div 
         className='background'
         initial={{width: 0}}
         animate={{width: "100%"}}
@@ -42,7 +41,7 @@ const Home = () =>{
             <BsLinkedin onClick={() => {OpenInNewTab("https://www.linkedin.com/in/oscar-gomez-barragan/")}}className="linkedin"color="black" size="3%" />
           </div>
         </div>
-      </motion.div>
+      </div>
     )}
     
     export default Home

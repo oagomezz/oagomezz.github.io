@@ -1,9 +1,8 @@
 import ResumePDF from "../assets/ResumePDF.pdf"
-import { motion } from "framer-motion/dist/framer-motion"
 
 const Resume = () =>{
     return(
-      <motion.div 
+      <div 
       className="opaque-background"
       initial={{width: 0}}
       animate={{width: "100%"}}
@@ -14,6 +13,6 @@ const Resume = () =>{
         <embed className="resume" src={ResumePDF}  />
     </main>
       </div>
-      </motion.div>
+      </div>
     )}
     export default Resume;
