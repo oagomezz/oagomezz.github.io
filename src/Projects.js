@@ -1,6 +1,8 @@
 import TrekLog from "./components/assets/Portfolio/Treklog.gif"
 import BarkBuddies from "./components/assets/Portfolio/BarkBuddies.gif"
 import BudgetApp from "./components/assets/Portfolio/BudgetApp.gif"
+import Ecommerce from "./components/assets/Portfolio/Ecommerce.gif"
+
 const Projects = [ 
 {
     id: 0,
@@ -23,6 +25,14 @@ const Projects = [
     image: BudgetApp,
     description: "This React app was created to better understand React hooks such as useContext, useEffect and useReducer along with React Formatter.",
     alt: "Image of BudgetApp being used"
+},
+{
+    id: 3,
+    name: "Ecommerce Store",
+    image: Ecommerce,
+    description: "React app created utilizing styles and components such as Material-UI, Material-UI Grid, Material-UI Button, developed without the use of CSS files and relied on styled-components library to style the components.",
+    link: '',
+    alt: "Ecommerce Store walkthrough"
 }
 
 ]

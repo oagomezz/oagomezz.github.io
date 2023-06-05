@@ -32,7 +32,7 @@ const Home = () =>{
           </div>  
           </div>  
         <div className="title-column">
-          <div className="Quote">"Believe you can and you're halfway there." - Theodore Roosevelt</div>
+          <div className="Quote">""Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</div>
             <div className="line-1 anim-typewriter">
               <h1 className="title" fontSize="300%">Hi, I'm Oscar Gomez Barragan | Software Developer</h1>
             </div>
