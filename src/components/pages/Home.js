@@ -5,6 +5,8 @@ import "../../styles/App.scss"
 import "../../styles/Portfolio.scss"
 
 const Home = () =>{
+
+  
   const OpenInNewTab = (url) => {
     window.open(url, "_blank", "noreferrer")
   }

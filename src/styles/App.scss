@@ -1,6 +1,18 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
+.hamburger{
+  @media screen and (max-width: 380px){
+    position: absolute !important;
+    right: 3% !important;
+    top: 3% !important;
+  }
+  @media screen and (min-width: 381px) and (max-width: 989px ){
+    position: absolute !important;
+    right: 10% !important;
+    top: 4% !important;
+  }
+}
 .navigation{
   background: #ffc1c1;
   font-family: 'Comfortaa', cursive;
@@ -17,10 +29,18 @@ ul.nav{
 }
 
   .nav-link {
+    @media(min-width: 381px){
     color: rgb(0, 0, 0) !important;
     text-decoration: none;
     font-size: 25px !important;
     text-shadow: 2px 2px 10px black;
+    }
+  }
+  a.nav-link {
+      @media(max-width: 380px){
+      color: white !important;
+      font-size: 20px;
+    }
   }
  
   ul{
@@ -44,19 +64,21 @@ ul.nav{
  
   .nav-link:hover{
     color:#368ABF !important;
-    text-shadow: 2px 2px 12px white
+    text-shadow: 2px 2px 12px white;
   }
   a.nav-link.active{
-    color:#368ABF !important;
-    text-shadow: 2px 2px 12px white
+    color:#368ABF;
+    text-shadow: 2px 2px 12px white;
   }
   
   .background{
     background-image: url("../components/assets/background.jpg");
       background-position: 40%;
       background-size: cover;
+      object-fit: contain;
       background-repeat: no-repeat;
-      height: 120vh;
+      height: 100vh;
+      width: 100vw;
   }
   .opaque-background{
       background-repeat: no-repeat;
@@ -77,18 +99,33 @@ ul.nav{
   .contact-me{
     display: flex;
     flex-direction: column;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
   }
   .message-input{
     width: 55vh;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
   }
   .name-input{
     width: 55vh !important;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
   }
   .email-input{
     width: 55vh !important;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
   }
   .contact-button{
     width: 55vh;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
   }
   
   .content{
@@ -96,6 +133,11 @@ ul.nav{
     justify-content: center;
     padding: 5%;
     font-family: 'Comfortaa', cursive;
+    @media(max-width: 380px){
+      max-width: 370px;
+      position: absolute;
+      top: 30%;
+    }
   }
   
   div.card{
@@ -142,4 +184,9 @@ padding-top: 1%;
 
 .mobile-navigation{
   display: none;
+}
+div.mb-3{
+  @media(max-width:380px){
+    margin: 13px 3px
+  }
 }
