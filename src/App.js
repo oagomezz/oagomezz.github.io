@@ -8,6 +8,7 @@ import AnimatedRoutes from "./components/components/AnimatedRoutes";
 
 
 const App = () =>{
+  
   return(
     <BrowserRouter>
          <AnimatedRoutes />

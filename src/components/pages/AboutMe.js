@@ -2,6 +2,9 @@ import { React, useState, useEffect } from "react";
 import {SiReact, SiRubyonrails} from "react-icons/si"
 import {DiRuby, DiJavascript, DiPostgresql} from "react-icons/di"
 import AboutMePhoto from '../assets/AboutMePhoto.jpg'
+import "../../styles/App.scss"
+import "../../styles/AboutMe.scss"
+import "../../styles/Media.scss"
 
 const AboutMe = () =>{
   const [loopNum, setLoopNum] = useState(0);

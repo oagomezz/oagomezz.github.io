@@ -1,42 +1,45 @@
-@media(max-width: 490px ){
-    h1.title{
-      position: absolute;
-      top: -75px;
-    }
-  }
-  @media( max-width: 390px ){
-    div.background{
-  position: relative;
-  right: 0;
-    }
-    div.text-container{
-      width: auto;
-      height: auto;
-    }
-    img.project-image{
-      width:40vh;
-    }
-    a.download-link{
-      top: 50px;
-    }
-    .contact-button{
-      width: 370px !important;
-    }
-    .name-input{
-      width: 370px !important;
-    }
-    .email-input{
-      width: 370px !important;
-    }
-    .message-input{
-      width: 370px !important;
-    }
-    form.contact-me{
-      position: absolute;
-      top: 28vh;
-    }
+// @media(max-width: 490px ){
+//     h1.title{
+      
+//       position: absolute;
+//       top: -75px;
+//     }
+//   }
+//   @media( max-width: 380px ){
+//     div.background{
+//   position: relative;
+//   right: 0;
+//   width: 100vw;
+//   height: 100vh;
+//     }
+//     div.text-container{
+//       width: auto;
+//       height: auto;
+//     }
+//     img.project-image{
+//       width:40vh;
+//     }
+//     a.download-link{
+//       top: 50px;
+//     }
+//     .contact-button{
+//       width: 370px !important;
+//     }
+//     .name-input{
+//       width: 370px !important;
+//     }
+//     .email-input{
+//       width: 370px !important;
+//     }
+//     .message-input{
+//       width: 370px !important;
+//     }
+//     form.contact-me{
+//       position: absolute;
+//       top: 28vh;
+//     }
   
-  }
+  // }
    @media (max-width: 990px){
     .navigation {
       display: none;
@@ -49,17 +52,14 @@
     }
     div.mobile-navigation{
       height: 75px;
-      background-color: gainsboro;
+      background-color: #368ABF;;
     }
-    .social-icons{
-      display:none;
-    }
-    .hamburger{
-      position: absolute;
-      right: 5%;
-      top: 3%;
-      cursor: pointer;
-    }
+    // .hamburger{
+    //   position: absolute;
+    //   right: 5%;
+    //   top: 3%;
+    //   cursor: pointer;
+    // }
       ul.navbar{
         position: absolute;
         display: flex;
@@ -71,8 +71,8 @@
         top: 75px;
     }
     .navbar{
-      top: 70px;
-      background-color: gainsboro;
+      // top: 70px;
+      background-color: #368ABF;
       opacity: .75;
     }
     nav li{
