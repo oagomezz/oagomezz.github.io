@@ -3,6 +3,7 @@
     background-size: auto 100%;
     width: 88px;
     height: 125px;
+    z-index: -900;
     will-change: background-position;
     -webkit-animation-name: fly-cycle;
             animation-name: fly-cycle;

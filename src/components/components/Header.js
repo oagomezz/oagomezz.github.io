@@ -1,6 +1,6 @@
 import React from "react"
-import Navigation from "./Navigation";
-import MobileNavigation from "./MobileNavigation";
+// import Navigation from "./Navigation";
+// import MobileNavigation from "./MobileNavigation";
 
 
 const Header = () => {
@@ -11,8 +11,8 @@ const Header = () => {
             @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
           </style>
         <div id="top"></div>
-        <Navigation />
-        <MobileNavigation />
+        {/* <Navigation />
+        <MobileNavigation /> */}
       </>
     );
   }

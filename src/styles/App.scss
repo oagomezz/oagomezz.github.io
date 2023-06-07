@@ -86,6 +86,7 @@ ul.nav{
       position: relative;
       font-family: 'Montserrat', sans-serif;
       background: linear-gradient(to bottom, rgb(255 193 193) 0%, #a59cc6 100%);
+      z-index: -900;
   }
 
   .page-content{
@@ -99,6 +100,7 @@ ul.nav{
   .contact-me{
     display: flex;
     flex-direction: column;
+    z-index: 500;
     @media(max-width: 380px){
       max-width: 370px
     }
