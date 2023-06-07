@@ -9,7 +9,7 @@
     font-family: 'Comfortaa', cursive;
     margin: 0px 10px;
     
-    @media(max-width:380px){
+    @media(max-width:400px){
       max-width: 75vw;
       max-height: 25vh;
       margin: 20px 10px;
@@ -19,7 +19,7 @@
   .projects{
     display: flex;
     flex-wrap: wrap;
-    @media(max-width:380px){
+    @media(max-width:400px){
       flex-direction: column;
     }
   }
@@ -28,7 +28,7 @@
     width: 20vw;
     object-fit: cover;
     overflow: hidden;
-    @media(max-width:380px){
+    @media(max-width:400px){
       width: 70vw;
       height: 25vh;
       object-fit: cover;

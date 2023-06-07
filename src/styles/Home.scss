@@ -7,11 +7,11 @@
     top: 47%;
     right: 0%;
     width: 100%;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       top: 40%;
       left: 8%;
     }
-    @media screen and (min-width: 381px) and (max-width: 989px ){
+    @media screen and (min-width: 401px) and (max-width: 989px ){
       max-width: 750px;
       top: 40%;
       overflow: hidden;
@@ -25,22 +25,22 @@
       width: 34vh;
       text-shadow: 1px 1px 12px black;
       font-family: 'Comfortaa', cursive;
-      @media(max-width: 380px){
+      @media(max-width: 400px){
         display: none;
       }
-      @media screen and (min-width: 381px) and (max-width: 989px ){
+      @media screen and (min-width: 401px) and (max-width: 989px ){
        display: none;
       }
   
   }
   .linkedin{
     box-shadow: 3px 3px 10px black;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       width: 40px;
       height: 40px;
       margin: 0px 10px;
     }
-    @media screen and (min-width: 381px) and (max-width: 989px ){
+    @media screen and (min-width: 401px) and (max-width: 989px ){
       width: 50px;
       height: 50px;
       margin: 10px 5px;
@@ -50,12 +50,12 @@
     margin-right: 1%;
     box-shadow: 3px 4px 10px black;
     border-radius: 100%;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       width: 40px;
       height: 40px;
       margin: 0px 10px;
     }
-    @media screen and (min-width: 381px) and (max-width: 989px ){
+    @media screen and (min-width: 401px) and (max-width: 989px ){
       width: 50px;
       height: 50px;
       margin: 10px 5px;
@@ -72,7 +72,7 @@
       align-items: center;
       font-size: 300%;
       text-shadow: 3px 3px 12px black;
-      @media (max-width: 380px){
+      @media (max-width: 400px){
         font-size: 30px;
         display: flex;
         justify-content: center;
@@ -84,7 +84,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @media screen and (min-width: 381px) and (max-width: 989px ){
+        @media screen and (min-width: 401px) and (max-width: 989px ){
          margin: 0px 10px;
         }
       }

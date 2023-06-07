@@ -6,7 +6,7 @@ div.about-me{
       top: 50%;
       justify-items: center;
       font-family: 'Comfortaa', cursive;
-      @media screen and (max-width: 380px){
+      @media screen and (max-width: 400px){
         position: relative;
       }
   }
@@ -18,7 +18,7 @@ div.about-me{
   justify-content: center;
   text-decoration: underline;
   margin-bottom: 3%;
-  @media screen and (max-width: 380px){
+  @media screen and (max-width: 400px){
     max-width: 350px;
     padding: 10px 0px;
   }
@@ -34,7 +34,7 @@ div.about-me{
   .job-title{
     font-size: 1000%;
     font-family: 'Comfortaa', cursive;
-    @media screen and (max-width: 380px){
+    @media screen and (max-width: 400px){
       font-size: 38px;
     }
 
@@ -42,7 +42,7 @@ div.about-me{
   .tech-icons{
     display: flex;
     justify-content: space-evenly;
-    @media (max-width: 380px){
+    @media (max-width: 400px){
       flex-direction: row;
       flex-wrap: wrap;
     }

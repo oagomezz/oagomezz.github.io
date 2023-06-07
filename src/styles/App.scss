@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
 .hamburger{
-  @media screen and (max-width: 380px){
+  @media screen and (max-width: 400px){
     position: absolute !important;
-    right: 3% !important;
+    right: 13%!important;
     top: 3% !important;
   }
   @media screen and (min-width: 381px) and (max-width: 989px ){
@@ -37,7 +37,7 @@ ul.nav{
     }
   }
   a.nav-link {
-      @media(max-width: 380px){
+      @media(max-width: 400px){
       color: white !important;
       font-size: 20px;
     }
@@ -99,31 +99,31 @@ ul.nav{
   .contact-me{
     display: flex;
     flex-direction: column;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px
     }
   }
   .message-input{
     width: 55vh;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px
     }
   }
   .name-input{
     width: 55vh !important;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px
     }
   }
   .email-input{
     width: 55vh !important;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px
     }
   }
   .contact-button{
     width: 55vh;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px
     }
   }
@@ -133,7 +133,7 @@ ul.nav{
     justify-content: center;
     padding: 5%;
     font-family: 'Comfortaa', cursive;
-    @media(max-width: 380px){
+    @media(max-width: 400px){
       max-width: 370px;
       position: absolute;
       top: 30%;
@@ -186,7 +186,7 @@ padding-top: 1%;
   display: none;
 }
 div.mb-3{
-  @media(max-width:380px){
+  @media(max-width:400px){
     margin: 13px 3px
   }
 }
