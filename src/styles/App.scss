@@ -6,6 +6,7 @@
     position: absolute !important;
     right: 3% !important;
     top: 3% !important;
+    z-index: 101;
   }
   @media screen and (min-width: 381px) and (max-width: 989px ){
     position: absolute !important;
@@ -26,6 +27,7 @@
 ul.nav{
   display: flex;
   justify-content: space-around;
+  position: absolute;
 }
 
   .nav-link {
