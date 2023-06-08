@@ -49,11 +49,10 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-    }
-    div.mobile-navigation{
       height: 75px;
-      background-color: #368ABF;;
+      background-color: #368ABF;
     }
+  
     // .hamburger{
     //   position: absolute;
     //   right: 5%;
@@ -69,6 +68,7 @@
         margin: 0;
         padding: 0;
         top: 75px;
+        z-index: 100;
     }
     .navbar{
       // top: 70px;
