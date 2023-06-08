@@ -1,45 +1,5 @@
-// @media(max-width: 490px ){
-//     h1.title{
-      
-//       position: absolute;
-//       top: -75px;
-//     }
-//   }
-//   @media( max-width: 380px ){
-//     div.background{
-//   position: relative;
-//   right: 0;
-//   width: 100vw;
-//   height: 100vh;
-//     }
-//     div.text-container{
-//       width: auto;
-//       height: auto;
-//     }
-//     img.project-image{
-//       width:40vh;
-//     }
-//     a.download-link{
-//       top: 50px;
-//     }
-//     .contact-button{
-//       width: 370px !important;
-//     }
-//     .name-input{
-//       width: 370px !important;
-//     }
-//     .email-input{
-//       width: 370px !important;
-//     }
-//     .message-input{
-//       width: 370px !important;
-//     }
-//     form.contact-me{
-//       position: absolute;
-//       top: 28vh;
-//     }
-  
-  // }
+@import "bootstrap";
+
    @media (max-width: 990px){
     .navigation {
       display: none;
@@ -52,13 +12,6 @@
       height: 75px;
       background-color: #368ABF;
     }
-  
-    // .hamburger{
-    //   position: absolute;
-    //   right: 5%;
-    //   top: 3%;
-    //   cursor: pointer;
-    // }
       .navbar{
         position: absolute;
         display: flex;
@@ -69,11 +22,8 @@
         padding: 0;
         top: 75px;
         z-index: 100;
-    }
-    .navbar{
-      // top: 70px;
-      background-color: #368ABF;
-      opacity: .75;
+        background-color: #368ABF;
+        opacity: 0.75;
     }
     nav li{
       border: 1px solid black;
