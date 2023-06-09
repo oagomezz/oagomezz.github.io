@@ -5,13 +5,14 @@
   @media screen and (max-width: 380px){
     position: absolute !important;
     right: 3% !important;
-    top: 3% !important;
+    top: 2% !important;
     z-index: 101;
   }
+  
   @media screen and (min-width: 381px) and (max-width: 989px ){
     position: absolute !important;
-    right: 10% !important;
-    top: 4% !important;
+    right: 3% !important;
+    top: 2% !important;
   }
 }
 .navigation{
@@ -27,7 +28,9 @@
 ul.nav{
   display: flex;
   justify-content: space-around;
-  position: absolute;
+    @media(max-width: 990px){
+      position: absolute;
+    }
 }
 
   .nav-link {
