@@ -22,7 +22,7 @@ const Portfolio = (props) => {
     {Projects?.map((project) => {
       return(
         <div key={project.id}>
-      <div className='project'>
+      <div className='project my-3'>
     <img  alt={project.alt} className='video' src={project.image} ></img> 
     <Button  color="secondary" onClick={() => {setModalData(project);
     toggle()}}>

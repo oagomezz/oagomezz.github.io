@@ -2,6 +2,7 @@ import TrekLog from "./components/assets/Portfolio/Treklog.gif"
 import BarkBuddies from "./components/assets/Portfolio/BarkBuddies.gif"
 import BudgetApp from "./components/assets/Portfolio/BudgetApp.gif"
 import Ecommerce from "./components/assets/Portfolio/Ecommerce.gif"
+import FriendsList from "./components/assets/Portfolio/FriendsList.gif"
 
 const Projects = [ 
 {
@@ -33,6 +34,14 @@ const Projects = [
     description: "React app created utilizing styles and components such as Material-UI, Material-UI Grid, Material-UI Button, developed without the use of CSS files and relied on styled-components library to style the components.",
     link: '',
     alt: "Ecommerce Store walkthrough"
+},
+{
+    id: 4,
+    name: "Friend's List",
+    image: FriendsList,
+    description: "Ruby on Rails Application created to better understand the use of bootstrap on the MVC architecture of Rails and uploading DB's to Render to support a live application. Application supports full CRUD functionality, along with filters between different accounts. App is Live until September 14.",
+    link: 'https://friends-list-q2pi.onrender.com',
+    alt: "Friend's list walkthrough"
 }
 
 ]

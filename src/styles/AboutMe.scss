@@ -34,8 +34,11 @@ div.about-me{
   .job-title{
     font-size: 1000%;
     font-family: 'Comfortaa', cursive;
-    @media screen and (max-width: 380px){
+    @media screen and (max-width: 400px){
       font-size: 38px;
+    }
+    @media screen and (max-width:990px) and (min-width:401px){
+      font-size: 10vw;
     }
 
   }
@@ -51,5 +54,8 @@ div.about-me{
     display: flex;
     justify-content: flex-end;
     padding-top: 15%;
+    @media (max-width: 400px){
+
+    }
   }
   
