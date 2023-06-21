@@ -3,6 +3,7 @@ import BarkBuddies from "./components/assets/Portfolio/BarkBuddies.gif"
 import BudgetApp from "./components/assets/Portfolio/BudgetApp.gif"
 import Ecommerce from "./components/assets/Portfolio/Ecommerce.gif"
 import FriendsList from "./components/assets/Portfolio/FriendsList.gif"
+import ActivExcel from "./components/assets/Portfolio/ActivExcel.gif"
 
 const Projects = [ 
 {
@@ -42,7 +43,16 @@ const Projects = [
     description: "Ruby on Rails Application created to better understand the use of bootstrap on the MVC architecture of Rails and uploading DB's to Render to support a live application. Application supports full CRUD functionality, along with filters between different accounts. App is Live until September 14.",
     link: 'https://friends-list-q2pi.onrender.com',
     alt: "Friend's list walkthrough"
+},
+{
+    id: 5,
+    name: "ActivExcel",
+    image: ActivExcel,
+    description: "Ruby on Rails Application created on the MVC architecture of Rails. ActivExcel is the ultimate workout logging app that revolutionizes your fitness journey. With comprehensive tracking and analysis capabilities, you can easily monitor and visualize your progress over time. Download FitTrack now and unlock your true fitness potential!",
+    link: '',
+    alt: "ActivExcel walkthrough"
 }
+
 
 ]
 
